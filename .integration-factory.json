@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "86ecb156cc735784e126ecad8d52a2166e9ea58ce2f1c90e7222263c99b5b0e0",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.alphainsider.com/openapi.yaml"
+  ],
+  "id": "alphainsider-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AlphaInsider MCP setup and connection checker",
+  "description": "Generate AlphaInsider MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "alphainsider",
+  "appName": "AlphaInsider",
+  "providerDocs": "https://api.alphainsider.com/openapi.yaml",
+  "providerWebsite": "https://alphainsider.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://api.alphainsider.com/resources/introduction",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-alphainsider-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
