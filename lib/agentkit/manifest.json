@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-alphainsider",
+      "description": "Connect AI agents to AlphaInsider using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-alphainsider/SKILL.md": "871d682c3937e3087b6c036fcc9b0159bd45d889cf60f026b6e35344303a578a"
+  }
+}
